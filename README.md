@@ -1,5 +1,5 @@
 # ma1
-Robotics project --Mobile Arm v0.1
+## Robotics project --Mobile Arm v0.1
 
 ===========setup============
 
@@ -7,8 +7,8 @@ Robotics project --Mobile Arm v0.1
 2.Setup network-config file on SD card
 2.1.Or alternatively setup with nano then
 
-  sudo netplan generate
-  sudo netplan apply
-  reboot
+- sudo netplan generate
+- sudo netplan apply
+- reboot
   
 3.Edit hostname and create relevent user accounts, grant permissions where nessaccary
