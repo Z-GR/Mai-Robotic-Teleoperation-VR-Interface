@@ -12,3 +12,4 @@
 - reboot
   
 3. Edit hostname and create relevent user accounts, grant permissions where nessaccary
+4. Install ROS neotic http://wiki.ros.org/noetic/Installation/Ubuntu
