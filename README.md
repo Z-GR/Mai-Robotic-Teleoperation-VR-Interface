@@ -4,8 +4,9 @@
 ===========setup============
 
 1. First flash ubuntu server 20.4.02 onto the rpi micro SD card using the rpi imager
-2. Setup network-config file on SD card
-3. Or alternatively setup with nano then
+2. setup user accounts -- grant sudo privaliges
+3. Setup network-config file on SD card
+4. Or alternatively setup with nano then
 
 - sudo netplan generate
 - sudo netplan apply
