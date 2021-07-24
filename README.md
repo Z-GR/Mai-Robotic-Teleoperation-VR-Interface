@@ -23,8 +23,8 @@ sudo apt install ros-noetic-ros-base
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
-9. Install dependencys
-
+9. Install dependencys -- library's
+sudo apt install python3-pip
 sudo pip3 install rpimotorlib
 
 
