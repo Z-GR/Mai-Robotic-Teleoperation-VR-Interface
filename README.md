@@ -29,4 +29,8 @@ sudo apt install python3-pip
 
 sudo pip3 install rpimotorlib
 
+10. install ros serial for communication with arduino 
+
+sudo apt-get install ros-indigo-rosserial
+
 
