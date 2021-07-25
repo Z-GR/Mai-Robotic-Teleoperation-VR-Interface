@@ -16,24 +16,24 @@
 5. Install ROS neotic http://wiki.ros.org/noetic/Installation/Ubuntu
 6. On install install ros base
 
-sudo apt install ros-noetic-ros-base
+- sudo apt install ros-noetic-ros-base
 
 8. Add setup to bash.rc
 
-echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
-source ~/.bashrc
+- echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+- source ~/.bashrc (sourced on login)
 
 9. Install dependencys -- library's
 
-sudo apt install python3-pip
+- sudo apt install python3-pip
 
-sudo pip3 install rpimotorlib
+- sudo pip3 install rpimotorlib
 
 10. install ros serial for communication with arduino 
 
-sudo apt-get install ros-indigo-rosserial
+- sudo apt-get install ros-indigo-rosserial
 
 11.grant permission for serial port
 
-sudo chmod a+rw /dev/ttyACM0
+- sudo chmod a+rw /dev/ttyACM0
 
