@@ -33,4 +33,7 @@ sudo pip3 install rpimotorlib
 
 sudo apt-get install ros-indigo-rosserial
 
+11.grant permission for serial port
+
+sudo chmod a+rw /dev/ttyACM0
 
