@@ -37,3 +37,10 @@
 
 - sudo chmod a+rw /dev/ttyACM0
 
+-----------kinect--------
+
+-----------VR----------
+1.Install debian
+
+- sudo apt-get install ros-<rosdistro>-rosbridge-server
+
