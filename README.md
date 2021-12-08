@@ -29,11 +29,11 @@
 
 - sudo pip3 install rpimotorlib
 
-10. install ros serial for communication with arduino 
+10. Install ros serial for communication with arduino 
 
 - sudo apt-get install ros-indigo-rosserial
 
-11.grant permission for serial port
+11. Grant permission for serial port
 
 - sudo chmod a+rw /dev/ttyACM0
 
