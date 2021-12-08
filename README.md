@@ -39,12 +39,12 @@
 
 -----------kinect--------
 
-1.Install libfreenect
-2.Install kinect_aux (For tilt control)
+1. Install libfreenect
+2. Install kinect_aux (For tilt control)
 
 -----------VR----------
 
-1.Install debian
+1. Install debian
 
 - sudo apt-get install ros-<rosdistro>-rosbridge-server
 
