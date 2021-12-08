@@ -1,0 +1,11 @@
+<launch>
+  <param name="robot_description" textfile="$(find ma1)/urdf/ma1.urdf" />
+  <node name="basecontroller" pkg="ma1" type="basecontroller" />
+  <node name="lift" pkg="ma1" type="lift.py" />
+  <node name="keyboard_teleop" pkg="ma1" type="keyboard_teleop.py" output="screen" />
+  <node name="armcontroller" pkg="ma1" type="armcontroller" />
+  <node pkg="ma1" type="tf_broadcaster" name="tf_broadcaster" />
+
+  <node pkg="rosserial_python" type="serial_node.py" args="/dev/ttyACM0" name="serial_node" respawn="true"/>
+
+</launch>
