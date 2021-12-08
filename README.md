@@ -42,6 +42,8 @@
 1. Install libfreenect
 2. Install kinect_aux (For tilt control)
 
+- rostopic pub /tilt_angle std_msgs/Float64 -- -15 {-30:30}
+
 -----------VR----------
 
 1. Install debian
