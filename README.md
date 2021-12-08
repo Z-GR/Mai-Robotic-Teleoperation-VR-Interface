@@ -46,7 +46,7 @@
 
 -----------VR----------
 
-1. Install debian
+1. Install rosbridge via debian
 
 - sudo apt-get install ros-<rosdistro>-rosbridge-server
 
