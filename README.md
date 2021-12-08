@@ -38,6 +38,8 @@
 - sudo chmod a+rw /dev/ttyACM0
 
 -----------kinect--------
+1.Install libfreenect
+2.Install kinect_aux (For tilt control)
 
 -----------VR----------
 1.Install debian
