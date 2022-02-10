@@ -4,9 +4,12 @@
 ===========setup============
 
 1. First flash ubuntu server 20.4.02 onto the rpi micro SD card using the rpi imager
-2. setup user account ma1 & grant the user sudo privaliges
-3. Setup network-config file on SD card
-4. Or alternatively setup with
+2. Setup network-config file on SD card (after flashing)
+3. setup user account ma1 & grant the user sudo privaliges
+
+- sudo adduser newuser
+
+5. Or alternatively setup with
 
 - nano /etc/netplan/50-cloud-init.yaml
 
@@ -27,7 +30,7 @@
 
 9. Install dependencys -- (library's)
 
-- sudo apt install python3-pip
+- sudo apt install python3-pip (pip is a python package manager)
 
 - sudo pip3 install rpimotorlib
 
