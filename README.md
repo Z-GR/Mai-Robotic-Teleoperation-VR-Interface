@@ -1,7 +1,5 @@
-# Mai
-## Robotics project -- Mobile Arm v1.1 (Mai)
-
-===========setup============
+# Robotics project -- Mobile Arm v1.1 (Mai)
+## Setup
 
 1. First flash ubuntu server 20.4.02 onto the rpi micro SD card using the rpi imager
 2. Setup network-config file on SD card (after flashing)(headless)
@@ -43,7 +41,7 @@
 
 - sudo chmod a+rw /dev/ttyACM0
 
------------kinect---------
+## Kinect
 
 1. Install libfreenect
 2. Install kinect_aux (For tilt control)
@@ -52,7 +50,7 @@
 - rostopic pub /tilt_angle std_msgs/Float64 -- -15 {-30:30} // move to 15 degrees down
 - rostopic pub /tilt_angle std_msgs/Float64 -- -30 {-30:30} //full tilt (Expected result) // no movement (returned result) Fix: uint16_t changed to int16_t
 
--------------VR Webserver using websocket API----------
+## VR Webserver using websocket API (Unity <-> ROS)
 
 1. Install rosbridge via debian
 
