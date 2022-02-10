@@ -7,7 +7,8 @@
 2. Setup network-config file on SD card (after flashing)
 3. setup user account ma1 & grant the user sudo privaliges
 
-- sudo adduser newuser
+- sudo adduser newuser (replace "newuser" with mai (or any name you prefer))
+- sudo usermod -aG sudo newuser
 
 5. Or alternatively setup with
 
@@ -46,6 +47,8 @@
 
 1. Install libfreenect
 2. Install kinect_aux (For tilt control)
+3. Kinect_aux (BUG Report: wrong datatype used uint_32 changed to int_32)
+4. Below is
 
 - rostopic pub /tilt_angle std_msgs/Float64 -- -15 {-30:30}
 
