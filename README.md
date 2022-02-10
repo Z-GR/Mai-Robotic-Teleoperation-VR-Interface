@@ -36,7 +36,7 @@
 
 10. Install ros serial for communication with arduino 
 
-- sudo apt-get install ros-indigo-rosserial
+- sudo apt-get install ros-"ros-distribution"-rosserial
 
 11. Grant permission for serial port
 
