@@ -4,19 +4,19 @@
 ===========setup============
 
 1. First flash ubuntu server 20.4.02 onto the rpi micro SD card using the rpi imager
-2. Setup network-config file on SD card (after flashing)
-3. setup user account ma1 & grant the user sudo privaliges
-
-- sudo adduser newuser (replace "newuser" with mai (or any name you prefer))
-- sudo usermod -aG sudo newuser
-
-4. Or alternatively setup with
+2. Setup network-config file on SD card (after flashing)(headless)
+3. Or alternatively setup with
 
 - nano /etc/netplan/50-cloud-init.yaml
 
 - sudo netplan generate
 - sudo netplan apply
 - reboot
+
+4. setup user account ma1 & grant the user sudo privaliges
+
+- sudo adduser newuser (replace "newuser" with mai (or any name you prefer))
+- sudo usermod -aG sudo newuser
   
 5. Edit hostname and create relevent user accounts, grant permissions where nessaccary
 6. Install ROS neotic http://wiki.ros.org/noetic/Installation/Ubuntu
@@ -29,7 +29,7 @@
 - echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 - source ~/.bashrc (sourced on login of each new shell)
 
-10. Install dependencys -- (library's)
+9. Install dependencys -- (library's)
 
 - sudo apt install python3-pip (pip is a python package manager)
 
@@ -59,6 +59,7 @@
 - sudo apt-get install ros-<rosdistro>-rosbridge-server
 
 =================Launch=================
+  
 Current boot sequence (source ros workspace on each terminal):
   
 - sudo pigpiod
