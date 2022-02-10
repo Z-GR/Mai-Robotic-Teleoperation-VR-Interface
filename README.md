@@ -58,7 +58,7 @@
 
 - sudo apt-get install ros-<rosdistro>-rosbridge-server
 
-##Launch
+## Launch
   
 Current boot sequence (source ros workspace on each terminal):
   
