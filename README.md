@@ -1,5 +1,5 @@
 # Mai
-## Robotics project --Mobile Arm v1.1 (Mai)
+## Robotics project -- Mobile Arm v1.1 (Mai)
 
 ===========setup============
 
@@ -59,4 +59,12 @@
 - sudo apt-get install ros-<rosdistro>-rosbridge-server
 
 =================Launch=================
+Current boot sequence (source ros workspace on each terminal):
   
+- sudo pigpiod
+
+- roslaunch freenect_launch freenect.launch depth_registration:=true
+
+- roslaunch rosbridge_server rosbridge_websocket.launch
+
+- roslaunch ma1 ma1.launch
