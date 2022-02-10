@@ -1,12 +1,14 @@
 # ma1
-## Robotics project --Mobile Arm v0.1
+## Robotics project --Mobile Arm v0.1 (Mai)
 
 ===========setup============
 
 1. First flash ubuntu server 20.4.02 onto the rpi micro SD card using the rpi imager
-2. setup user accounts -- grant sudo privaliges
+2. setup user account ma1 & grant the user sudo privaliges
 3. Setup network-config file on SD card
-4. Or alternatively setup with nano then
+4. Or alternatively setup with
+
+- nano /etc/netplan/50-cloud-init.yaml
 
 - sudo netplan generate
 - sudo netplan apply
@@ -18,12 +20,12 @@
 
 - sudo apt install ros-noetic-ros-base
 
-8. Add setup to bash.rc
+8. Add setup to bash.rc (this sources the ros middleware so we can run ros command line arguments)
 
 - echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 - source ~/.bashrc (sourced on login)
 
-9. Install dependencys -- library's
+9. Install dependencys -- (library's)
 
 - sudo apt install python3-pip
 
@@ -44,7 +46,7 @@
 
 - rostopic pub /tilt_angle std_msgs/Float64 -- -15 {-30:30}
 
------------VR----------
+-------------VR----------
 
 1. Install rosbridge via debian
 
