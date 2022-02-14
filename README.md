@@ -1,4 +1,6 @@
 # Robotics project -- Mobile Arm v1.1 (Mai)
+Notes: 
+Please ignore 
 ## Setup
 
 1. First flash ubuntu server 20.4.02 onto the rpi micro SD card using the rpi imager
