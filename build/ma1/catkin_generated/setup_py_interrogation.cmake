@@ -1,0 +1,7 @@
+set(ma1_SETUP_PY_SETUP_MODULE "distutils.core")
+set(ma1_SETUP_PY_VERSION "0.0.0")
+set(ma1_SETUP_PY_SCRIPTS "")
+set(ma1_SETUP_PY_PACKAGES "ma1")
+set(ma1_SETUP_PY_PACKAGE_DIRS "src/ma1")
+set(ma1_SETUP_PY_MODULES "")
+set(ma1_SETUP_PY_MODULE_DIRS "")

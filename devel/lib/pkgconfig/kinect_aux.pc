@@ -1,0 +1,8 @@
+prefix=/home/ma1/catkin_ws/devel
+
+Name: kinect_aux
+Description: Description of kinect_aux
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs std_msgs
