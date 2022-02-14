@@ -60,7 +60,7 @@ Please ignore .DS_Store files (Mac OS, these files store custom attributes of it
 
 ## Launch
   
-Current boot sequence (source ros workspace on each terminal):
+Current boot sequence (source ros workspace on each shell):
   
 - sudo pigpiod
 
