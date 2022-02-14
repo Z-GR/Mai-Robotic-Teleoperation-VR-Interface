@@ -50,7 +50,7 @@
 - rostopic pub /tilt_angle std_msgs/Float64 -- -15 {-30:30} // move to 15 degrees down
 - rostopic pub /tilt_angle std_msgs/Float64 -- -30 {-30:30} //full tilt (Expected result) // no movement (returned result) Fix: uint16_t changed to int16_t
 
-## VR Webserver using websocket API (Unity <-> ROS)
+## Webserver using websocket API (Unity <-> ROS)
 
 1. Install rosbridge via debian
 
