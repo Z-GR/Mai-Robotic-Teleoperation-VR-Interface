@@ -47,7 +47,7 @@ Please ignore .DS_Store files (Mac OS, these files store custom attributes of it
 
 1. Install libfreenect
 2. Install kinect_aux (For tilt control)
-3. Kinect_aux (BUG Report: wrong datatype used in function setTiltAngle uint16_t change to int16_t)
+3. Kinect_aux (BUG Report: wrong data type used in function setTiltAngle uint16_t change to int16_t)
 
 - rostopic pub /tilt_angle std_msgs/Float64 -- -15 {-30:30} // move to 15 degrees down
 - rostopic pub /tilt_angle std_msgs/Float64 -- -30 {-30:30} //full tilt (Expected result) // no movement (returned result) Fix: uint16_t changed to int16_t
