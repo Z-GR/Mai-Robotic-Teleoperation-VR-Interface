@@ -5,4 +5,9 @@ This is a standalone ROS Indigo package which provides access to auxiliary featu
 
 This package may be used in conjunction with openni_camera.
 
+This package has been edited by Zak G Rackham
+
+Edit log:
+
+
 For more information: http://www.ros.org/wiki/kinect_aux
