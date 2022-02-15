@@ -9,5 +9,6 @@ This package has been edited by Zak G Rackham
 
 Edit log:
 
+BUG Report: wrong data type used in function setTiltAngle uint16_t change to int16_t
 
 For more information: http://www.ros.org/wiki/kinect_aux
