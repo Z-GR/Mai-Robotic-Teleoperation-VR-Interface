@@ -1,6 +1,6 @@
 # Robotics project -- Mobile Arm v1.1 (Mai)
 Notes: 
-Please ignore .DS_Store files (Mac OS, these files store custom attributes of its containing folder)
+Please ignore .DS_Store files (Associated with Mac OS, these files store custom attributes of its containing folder)
 ## Setup
 
 1. First flash ubuntu server 20.4.02 onto the rpi micro SD card using the rpi imager
