@@ -1,0 +1,3 @@
+[submodule "ros-sharp"]
+	path = ros-sharp
+	url = https://github.com/siemens/ros-sharp
