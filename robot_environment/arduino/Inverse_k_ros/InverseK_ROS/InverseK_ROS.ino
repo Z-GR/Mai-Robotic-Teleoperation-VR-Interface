@@ -5,7 +5,7 @@
 
 #include <ros.h>
 #include <Arduino.h>
-#include <BraccioLibMai1.h>
+#include <BraccioLibMai.h>
 #include <std_msgs/MultiArrayLayout.h>
 #include <std_msgs/MultiArrayDimension.h>
 #include <std_msgs/UInt32.h>
