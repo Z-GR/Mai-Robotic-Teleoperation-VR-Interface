@@ -79,7 +79,7 @@ void setup() {
 }
 void loop() 
 {
-  Braccio.ServoMovement(10,_baseAngle,_shoulderAngle,_elbowAngle,_wrist_verAngle,_wrist_rotAngle,_gripperAngle);
+  Braccio.ServoMovement(30,_baseAngle,_shoulderAngle,_elbowAngle,_wrist_verAngle,_wrist_rotAngle,_gripperAngle);
 
   float a0, a1, a2, a3;
 
